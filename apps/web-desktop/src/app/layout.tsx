@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "@sr4/packages/ui/styles/global.css";
+import "@repo/packages/ui/styles/global.css";
 import styles from './layout.module.css';
 
 export const metadata: Metadata = {

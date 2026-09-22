@@ -1,6 +1,6 @@
 // apps/backend/lint/index.ts
 import path from 'node:path';
-import { MaxLinesLinter, runLinters } from '@sr4/shared/lint';
+import { MaxLinesLinter, runLinters } from '@repo/shared/lint';
 import { RouteConflictLinter } from './rules/route-conflict';
 
 runLinters({

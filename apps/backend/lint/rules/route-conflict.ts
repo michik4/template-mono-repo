@@ -1,5 +1,5 @@
-import { BaseLinter, LintIssue } from '@sr4/shared/lint';
-import { ClassDeclaration, Node, type Project } from '@sr4/shared/lint';
+import { BaseLinter, LintIssue } from '@repo/shared/lint';
+import { ClassDeclaration, Node, type Project } from '@repo/shared/lint';
 
 const HTTP_METHODS = ['Get', 'Post', 'Put', 'Delete', 'Patch', 'Options', 'Head', 'All'];
 
