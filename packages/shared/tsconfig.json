@@ -1,0 +1,10 @@
+{
+	"extends": "../../tsconfig.json",
+	"include": [
+		"lint/**/*.ts",
+		"dto/**/*.ts"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}

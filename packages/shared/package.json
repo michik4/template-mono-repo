@@ -1,0 +1,15 @@
+{
+  "name": "@sr4/shared",
+  "version": "0.0.1",
+  "private": true,
+  "exports": {
+    "./lint": "./lint/index.ts",
+    "./dto/*": "./dto/*"
+  },
+  "dependencies": {
+    "ts-morph": "^28.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.2"
+  }
+}

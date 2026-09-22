@@ -1,0 +1,8 @@
+node_modules/
+code_snapshots/
+__pycache__/
+bun.lock
+!.env.example
+.turbo
+.env
+.env*
