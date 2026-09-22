@@ -52,6 +52,7 @@ export function CreateBaseRepo<TTable extends PgTable<TableConfig>>(table: TTabl
         },
 
         async create(data: InsertModel): Promise<SelectModel> {
+            // @ts-expect-error: TS limitation
             const result = await db.insert(table).values(data).returning();
             return result[0] as unknown as SelectModel;
         },

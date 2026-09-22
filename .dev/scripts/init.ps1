@@ -1,4 +1,4 @@
-Write-Host "🚀 Настройка окружения для Стройрепутация 4.0 (Windows)..." -ForegroundColor Cyan
+Write-Host "Настройка окружения (win)..." -ForegroundColor Cyan
 Write-Host "------------------------------------------------------------"
 
 # 1. Установка FNM и Node.js 26

@@ -1,6 +1,6 @@
 {
-    "name": "sr4",
-    "description": "stroyreputation 4.0 mono repo",
+    "name": "mono-repo-template",
+    "description": "Modern fullstack monorepo template",
     "scripts": {
         "dev": "turbo run dev",
         "build": "turbo run build",

@@ -1,5 +1,5 @@
 {
-  "name": "@sr4/backend",
+  "name": "@repo/backend",
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -20,7 +20,7 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
-    "@sr4/shared": "workspace: ",
+    "@repo/shared": "workspace: ",
     "@nestjs/common": "^11.0.1",
     "@nestjs/core": "^11.0.1",
     "@nestjs/platform-express": "^11.0.1",
