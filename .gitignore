@@ -5,4 +5,4 @@ bun.lock
 !.env.example
 .turbo
 .env
-.env*
+.env.db
